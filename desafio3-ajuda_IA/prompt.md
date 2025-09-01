@@ -6,7 +6,7 @@ Código:
 public class PagamentoService
 {
     private readonly string connectionString =
-        "mongodb://usuario:senha@host:27017/ClienteFinanceiroDB";
+        // aqui vai string de conexão com usuario e senha
     public bool ProcessarPagamento(decimal valor, string cpfCliente)
     {
         if (valor > 10000)
